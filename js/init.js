@@ -10,3 +10,9 @@ firebase.initializeApp({
   appId: "1:840816661911:web:d98a502f580aa9b11b20d2",
   measurementId: "G-7RGGZYWS8N",
 });
+
+
+function agrega {
+  
+  
+}

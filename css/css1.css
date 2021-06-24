@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+/* estilos del sitio */
+
+html {
+  background-color: rgb(255, 252, 242);
+}
+header,
+section,
+footer {
+  max-width: 100%;
+  text-align: center;
+}
+header h1 {
+  margin: 0.5em 0 0.2em 0;
+}
+header {
+  margin-bottom: 3em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0em;
+  padding: 5px 0px;
+  background: burlywood;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 0em;
+}
+
+a {
+  color: burlywood;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav {
+  display: inline-block;
+  max-width: 100%;
+}
+
+nav {
+  position: relative;
+  top: 0em;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  border: ridge 0.15em;
+  border-radius: 0.25em;
+  margin: 0 0.25em;
+  padding: 0.1em 0.35em;
+}
+a:hover {
+  color: rgb(21, 21, 73);
+}
+
+.auth_01 {
+  position: absolute;
+  left: 2.5em;
+  display: block;
+  border: ridge;
+  border-radius: 1em 0;
+  max-width: 40%;
+}
+
+.auth_01 fieldset,
+figure {
+  text-align: center;
+  margin: 1em 0em;
+}
+
+div.div_button {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+div h2 {
+  margin-top: 1em;
+  text-align: center;
+}
+.div_comen {
+  position: relative;
+  left: 14.5em;
+  bottom: 0%;
+  text-align: justify;
+  max-width: 69%;
+}
