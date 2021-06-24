@@ -2,13 +2,35 @@
   padding: 0;
   margin: 0;
   border: 0;
+  font-family: "Times New Roman", Times, serif;
 }
+/* estilos del sitio */
 
+html {
+  background-color: rgb(255, 252, 242);
+}
 header,
 section,
 footer {
-  max-width: 90%;
+  max-width: 100%;
   text-align: center;
+}
+header h1 {
+  margin: 0.5em 0 0.2em 0;
+}
+header {
+  margin-bottom: 3em;
+}
+
+footer {
+  position: relative;
+  bottom: 0em;
+  padding: 5px 0px;
+  background: burlywood;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  margin-top: 2em;
 }
 
 a {
@@ -17,18 +39,16 @@ a {
   text-decoration: none;
 }
 
-header h1,
 nav {
   display: inline-block;
-  vertical-align: middle;
   max-width: 100%;
 }
-header {
-  margin-top: 2em;
-}
+
 nav {
   position: relative;
-  left: 10em;
+  top: 0em;
+  text-align: center;
+  width: 100%;
 }
 
 nav ul {
@@ -36,7 +56,7 @@ nav ul {
 }
 nav li {
   display: inline-block;
-  border: solid rgb(21, 21, 73) 0.15em;
+  border: ridge 0.15em;
   border-radius: 0.25em;
   margin: 0 0.25em;
   padding: 0.1em 0.35em;
@@ -44,16 +64,35 @@ nav li {
 a:hover {
   color: rgb(21, 21, 73);
 }
-@media (min-width: 500px) {
-  header h1 {
-    text-align: center;
-    width: 70%;
-  }
-  nav {
-    position: relative;
-    top: 4em;
-    text-align: center;
 
-    width: 30%;
-  }
+.auth_01 {
+  position: absolute;
+  left: 2.5em;
+  display: block;
+  border: ridge;
+  border-radius: 1em 0;
+  max-width: 40%;
+}
+
+.auth_01 fieldset,
+figure {
+  text-align: center;
+  margin: 1em 0em;
+}
+
+div.div_button {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+div h2 {
+  margin-top: 1em;
+  text-align: center;
+}
+p {
+  position: relative;
+  left: 14.5em;
+  bottom: 0%;
+  text-align: justify;
+  max-width: 69%;
 }
