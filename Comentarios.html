@@ -16,7 +16,6 @@
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js">
   </script>
   <script src="js/init.js"></script>
-  <script src="js/chat.js"></script>
   <link rel="stylesheet" href="css/css1.css">
 </head>
 
@@ -172,9 +171,8 @@
     function cod(texto) {
       return (texto || "").replace(/[&<>"']/g, letra => codMap.get(letra));
     }
-
-
-    //@ts-check
+  </script>
+  <script>//@ts-check
     /** Conexión al sistema de autenticación de Firebase. */
     // @ts-ignore
     const auth = firebase.auth();
@@ -220,8 +218,7 @@
     function procesaError(e) {
       console.log(e);
       alert(e.message);
-    }
-  </script>
+    }</script>
 </body>
 
 </html>
