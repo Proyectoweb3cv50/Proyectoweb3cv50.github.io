@@ -125,3 +125,8 @@ div h2 {
   border: none;
   padding: 0.1em 0.35em;
 }
+
+#mensajes {
+  display: block;
+  border: 0.1em;
+}
