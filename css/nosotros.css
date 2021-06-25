@@ -25,7 +25,7 @@ header {
 }
 .img_fondo {
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.3;
   width: 100%;
 }
 footer {
@@ -88,22 +88,6 @@ nav a:hover {
   padding: 0.1em 0.35em;
 }
 
-.auth_01 {
-  position: absolute;
-  left: 2.5em;
-  display: block;
-  border: ridge;
-  border-radius: 1em 0;
-  max-width: 40%;
-  margin-top: 4em;
-}
-
-.auth_01 fieldset,
-figure {
-  text-align: center;
-  margin: 1em 0em;
-}
-
 div.div_button {
   text-align: center;
   margin-bottom: 0.5em;
@@ -113,13 +97,13 @@ div h2 {
   margin-top: 1em;
   text-align: center;
 }
-.nav_right {
+.div_right {
   position: relative;
-  left: 16.5em;
   bottom: 0%;
   text-align: justify;
-  max-width: 69%;
+  width: 90%;
   margin-top: 3.8em;
+  left: 5%;
 }
 .a_nav_inicio {
   background: #212121;
@@ -132,4 +116,29 @@ div h2 {
   transition: all 0.5s ease-out;
   border: none;
   padding: 0.1em 0.35em;
+}
+.wpb_wrapper {
+  position: absolute;
+  right: 20%;
+  display: inline-block;
+  width: 30%;
+  margin: 2em;
+}
+.img_emp {
+  position: relative;
+  left: 3em;
+  margin-top: 2em;
+}
+
+.p_pan {
+  text-align: center;
+  margin-top: 1em;
+  border-bottom: solid;
+  padding-bottom: 1em;
+}
+p {
+  margin: 0.5em 0;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1em;
 }

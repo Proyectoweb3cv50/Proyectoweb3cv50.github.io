@@ -34,7 +34,7 @@ footer {
   position: fixed;
   bottom: 0em;
   padding: 5px 0px;
-  background: burlywood;
+  background: #212121;
   text-align: center;
   color: #fff;
   width: 100%;
@@ -67,7 +67,7 @@ nav a {
   border-radius: 0.25em;
   padding: 0.1em 0.35em;
   display: block;
-  font-family: "Pecita", Helvetica, Verdana;
+  font-family: "Times New Roman", Times, serif;
 
   -ms-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
@@ -97,7 +97,7 @@ nav a:hover {
   border: solid;
   border-radius: 1em 0;
   max-width: 40%;
-  margin-top: 2em;
+  margin-top: 3.8em;
   padding: 1em;
 }
 
@@ -125,7 +125,7 @@ div h2 {
   text-align: justify;
   border: solid;
   text-align: center;
-  margin-top: 2em;
+  margin-top: 3.8em;
   width: 50%;
 }
 .a_nav_inicio {
