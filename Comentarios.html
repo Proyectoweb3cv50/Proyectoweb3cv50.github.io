@@ -29,25 +29,33 @@
         <li><a href="index.html">Inicio</a></li>
         <li><a href="">Administrador</a></li>
         <li><a href="">Produccion</a></li>
-        <li><a href="Comentarios.html" class="a_nav_inicio">comentarios</a></li>
+        <li><a href="Comentarios.html" class="a_nav_inicio">Contactanos</a></li>
       </ul>
     </nav>
   </header>
-  <div class="auth_01">
-    <h2>Usuario</h2>
-    <fieldset>
-      <legend>E-mail</legend>
-      <output id="email"><progress max="100">Cargando…</progress></output>
-    </fieldset>
-    <fieldset>
-      <legend>Nombre</legend>
-      <output id="nombre"></output>
-    </fieldset>
-    <figure><img id="avatar" alt="Avatar"></figure>
-    <div class="div_button"><button type="button" onclick="terminaSesión()">Terminar Sesión</button></div>
+  <img class="img_fondo" src="/img/pan_fondo.jpg" alt="">
+  <div class="form_cont">
+    <h2>Contactanos</h2>
+    <form>
+      <div class="row">
+        <label class="required">Nombre</label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Ingresa tu nombre"><br />
+      </div>
+      <div class="row">
+        <label class="required">Email:</label><br />
+        <input id="email" name="email" type="text" value="" size="30" placeholder="Ingresa tu Email"><br />
+      </div>
+      <div class="row">
+        <label class="required">Mensaje</label><br />
+        <textarea id="message" name="message" rows="7" cols="30" placeholder="Escribe tu mensaje"></textarea><br />
+        <span id="message_validation" class="error_message"></span>
+      </div>
+
+      <input id="submit_button" type="submit" value="Enviar" />
+    </form>
   </div>
   <div class="div_comen">
-    <h1>Quejas</h1>
+    <h1 class="div_h1">--Quejas-EN VIVO-Pedidos--</h1>
     <form action="javascript:agrega();">
       <input id="texto" type="text" required placeholder="En que podemos ayudarte?">
       <button>Enviar</button>

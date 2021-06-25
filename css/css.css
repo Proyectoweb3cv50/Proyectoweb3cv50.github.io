@@ -5,7 +5,6 @@
   font-family: "Times New Roman", Times, serif;
 }
 /* estilos del sitio */
-
 html {
   background-color: rgb(255, 252, 242);
 }
@@ -16,17 +15,24 @@ footer {
   text-align: center;
 }
 header h1 {
-  margin: 0.5em 0 0.2em 0;
+  padding: 0.5em 0 0.2em 0;
 }
 header {
-  margin-bottom: 3em;
+  padding-bottom: 2em;
+  background-color: #fbe0b4;
+  background-image: url(https://i.pinimg.com/736x/16/bb/91/16bb91697ab09fd28763c8d1f5af067d.jpg);
+  background-position: 50% 50%;
 }
-
+.img_fondo {
+  position: absolute;
+  opacity: 0.5;
+  width: 100%;
+}
 footer {
   position: relative;
   bottom: 0em;
   padding: 5px 0px;
-  background: burlywood;
+  background: #212121;
   text-align: center;
   color: #fff;
   width: 100%;
@@ -89,6 +95,7 @@ nav a:hover {
   border: ridge;
   border-radius: 1em 0;
   max-width: 40%;
+  margin-top: 4em;
 }
 
 .auth_01 fieldset,
@@ -106,12 +113,13 @@ div h2 {
   margin-top: 1em;
   text-align: center;
 }
-p {
+.nav_right {
   position: relative;
   left: 16.5em;
   bottom: 0%;
   text-align: justify;
   max-width: 69%;
+  margin-top: 3.8em;
 }
 .a_nav_inicio {
   background: #212121;

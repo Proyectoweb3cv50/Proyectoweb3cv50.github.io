@@ -16,10 +16,18 @@ footer {
   text-align: center;
 }
 header h1 {
-  margin: 0.5em 0 0.2em 0;
+  padding: 0.5em 0 0.2em 0;
 }
 header {
-  margin-bottom: 3em;
+  padding-bottom: 2em;
+  background-color: #fbe0b4;
+  background-image: url(https://i.pinimg.com/736x/16/bb/91/16bb91697ab09fd28763c8d1f5af067d.jpg);
+  background-position: 50% 50%;
+}
+.img_fondo {
+  position: absolute;
+  opacity: 0.5;
+  width: 100%;
 }
 
 footer {
@@ -82,16 +90,18 @@ nav a:hover {
   padding: 0.1em 0.35em;
 }
 
-.auth_01 {
+.form_cont {
   position: absolute;
   left: 2.5em;
   display: block;
-  border: ridge;
+  border: solid;
   border-radius: 1em 0;
   max-width: 40%;
+  margin-top: 2em;
+  padding: 1em;
 }
 
-.auth_01 fieldset,
+.form_cont fieldset,
 figure {
   text-align: center;
   margin: 1em 0em;
@@ -103,15 +113,20 @@ div.div_button {
 }
 
 div h2 {
-  margin-top: 1em;
+  margin: 1em 0;
   text-align: center;
 }
+.div_h1 {
+  padding: 0.5em 0;
+}
 .div_comen {
-  position: relative;
-  left: 14.5em;
-  bottom: 0%;
+  position: absolute;
+  right: 15%;
   text-align: justify;
-  max-width: 69%;
+  border: solid;
+  text-align: center;
+  margin-top: 2em;
+  width: 50%;
 }
 .a_nav_inicio {
   background: #212121;
