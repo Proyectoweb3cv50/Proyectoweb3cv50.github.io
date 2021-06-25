@@ -171,6 +171,8 @@
     function cod(texto) {
       return (texto || "").replace(/[&<>"']/g, letra => codMap.get(letra));
     }
+
+
     //@ts-check
     /** Conexión al sistema de autenticación de Firebase. */
     // @ts-ignore
