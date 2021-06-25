@@ -30,21 +30,16 @@ footer {
   text-align: center;
   color: #fff;
   width: 100%;
-  margin-bottom: 0em;
+  margin-top: 2em;
 }
 
 a {
-  color: burlywood;
+  color: #212121;
   font-weight: bold;
   text-decoration: none;
 }
-
 nav {
-  display: inline-block;
   max-width: 100%;
-}
-
-nav {
   position: relative;
   top: 0em;
   text-align: center;
@@ -56,13 +51,35 @@ nav ul {
 }
 nav li {
   display: inline-block;
-  border: ridge 0.15em;
-  border-radius: 0.25em;
-  margin: 0 0.25em;
-  padding: 0.1em 0.35em;
 }
-a:hover {
-  color: rgb(21, 21, 73);
+
+nav a {
+  background: #fff;
+  border: 0 0.1em solid;
+  border-radius: 0.25em;
+  padding: 0.1em 0.35em;
+  display: block;
+  font-family: "Pecita", Helvetica, Verdana;
+
+  -ms-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  border: ridge 0.15em;
+}
+
+nav a:hover {
+  background: #212121;
+  border-radius: 0 0.5em 0 0.5em;
+  color: #fff;
+  -ms-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  border: none;
+  padding: 0.1em 0.35em;
 }
 
 .auth_01 {
