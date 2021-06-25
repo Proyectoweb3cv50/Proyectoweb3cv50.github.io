@@ -11,8 +11,3 @@ firebase.initializeApp({
   measurementId: "G-7RGGZYWS8N",
 });
 
-
-function agrega {
-  
-  
-}
