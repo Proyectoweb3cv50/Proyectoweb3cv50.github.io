@@ -44,66 +44,26 @@
       Esta Parte Unicamente tiene acceso el Administrador
     </p>
     <div class="wpb_wrapper">
-      <form name="forma">
-        <mi-nav></mi-nav>
-
-        <h1>Usuario Nuevo</h1>
-        <div class="herramientas">
-          <a href="usuarios.html">
-            Cancelar</a>
-          <button type="submit">
-            Guardar
-          </button>
-        </div>
-
-        <p>
-          <label>
-            Cue
-            <input name="cue" type="email" required>
-          </label>
-        </p>
-        <p>
-          <label>
-            Avatar
-            <input name="avatar" type="file" required accept=".png,.jpg,.jpeg,.gif">
-          </label>
-        </p>
-        <!--
-      Maneja una asociación a uno.
-    -->
-        <p>
-          <label>
-            Pasatiempo
-            <select name="pasatiempoId">
-              <option>
-                Cargando…
-              </option>
-            </select>
-          </label>
-        </p>
-        <!--
-      Maneja una asociación a
-      muchos.
-    -->
-        <fieldset>
-          <legend>Roles</legend>
-          <ul id="listaRoles" class="checks">
-            <li>
-              <mi-progreso>
-              </mi-progreso>
-            </li>
-          </ul>
-        </fieldset>
-        <mi-footer></mi-footer>
-      </form>
-
+      <h1>Usuarios</h1>
+      <div class="herramientas">
+        <a href="usuarioNuevo.html">
+          Agregar…</a>
+      </div>
+      </header>
+      <ul id="lista" class="lista">
+        <li>
+          <mi-progreso>
+          </mi-progreso>
+        </li>
+      </ul>
+      <script type="module" src="js/CtrlUsuarios.js">
+      </script>
     </div>
 
     <footer>
       Copyright 2021 Marroquin Aquino Luis Angel
     </footer>
-    <script type="module" src="js/CtrlUsuarioNuevo.js">
-    </script>
+
 </body>
 
 </html>
