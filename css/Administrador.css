@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+/* estilos del sitio */
+html {
+  background-color: rgb(255, 252, 242);
+}
+header,
+section,
+footer {
+  max-width: 100%;
+  text-align: center;
+}
+header h1 {
+  padding: 0.5em 0 0.2em 0;
+  color: white;
+}
+header {
+  padding-bottom: 2em;
+  background-color: #fbe0b4;
+  background-image: url(https://i.pinimg.com/736x/16/bb/91/16bb91697ab09fd28763c8d1f5af067d.jpg);
+  background-position: 50% 50%;
+}
+.img_fondo {
+  position: absolute;
+  opacity: 0.3;
+  width: 100%;
+}
+footer {
+  position: fixed;
+  bottom: 0em;
+  padding: 5px 0px;
+  background: #212121;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  margin-top: 2em;
+}
+
+a {
+  color: #212121;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav {
+  max-width: 100%;
+  position: relative;
+  top: 0em;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  background: #fff;
+  border: 0 0.1em solid;
+  border-radius: 0.35em;
+  padding: 0.1em 0.35em;
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+
+  -ms-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  border: ridge 0.15em;
+}
+
+nav a:hover {
+  background: #212121;
+  border-radius: 0 0.5em 0 0.5em;
+  color: #fff;
+  -ms-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  border: none;
+  padding: 0.1em 0.35em;
+}
+
+div.div_button {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+div h2 {
+  margin-top: 1em;
+  text-align: center;
+}
+.div_right {
+  position: relative;
+  bottom: 0%;
+  text-align: justify;
+  width: 90%;
+  margin-top: 3.8em;
+  left: 5%;
+}
+.a_nav_inicio {
+  background: #212121;
+  border-radius: 0 0.5em 0 0.5em;
+  color: #fff;
+  -ms-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  border: none;
+  padding: 0.1em 0.35em;
+}
+.wpb_wrapper {
+  position: absolute;
+  right: 20%;
+  display: inline-block;
+  width: 30%;
+  margin: 2em;
+}
+.img_emp {
+  position: relative;
+  left: 3em;
+  margin-top: 2em;
+}
+
+.p_pan {
+  text-align: center;
+  margin-top: 1em;
+  border-bottom: solid;
+  padding-bottom: 1em;
+}
+p {
+  margin: 0.5em 0;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1em;
+}
