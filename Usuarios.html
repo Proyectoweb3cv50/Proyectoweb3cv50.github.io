@@ -31,7 +31,8 @@
       <ul>
         <li><a href="index.html">Inicio</a></li>
         <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="usuario.html" class="a_nav_inicio">Usuarios</a></li>
+        <li><a href="pasatiempos.html">Pasatiempo</a></li>
+        <li><a href="usuarios.html" class="a_nav_inicio">Usuarios</a></li>
         <li><a href="Comentarios.html">Contactanos</a></li>
       </ul>
     </nav>
@@ -46,33 +47,30 @@
       <form name="forma">
         <mi-nav></mi-nav>
 
-        <h1>
-          <output name="cue">
-            Usuario
-            <mi-progreso>
-            </mi-progreso>
-          </output>
-        </h1>
+        <h1>Usuario Nuevo</h1>
         <div class="herramientas">
           <a href="usuarios.html">
             Cancelar</a>
-          <button>Guardar</button>
-          <button name="eliminar" type="button">
-            Eliminar
+          <button type="submit">
+            Guardar
           </button>
         </div>
-        <figure id="figure">
-          <img alt="Falta el Avatar">
-        </figure>
+
+        <p>
+          <label>
+            Cue
+            <input name="cue" type="email" required>
+          </label>
+        </p>
         <p>
           <label>
             Avatar
-            <input name="avatar" type="file" accept=".png,.jpg,.jpeg,.gif">
+            <input name="avatar" type="file" required accept=".png,.jpg,.jpeg,.gif">
           </label>
         </p>
         <!--
-            Maneja una asociación a uno.
-          -->
+      Maneja una asociación a uno.
+    -->
         <p>
           <label>
             Pasatiempo
@@ -84,9 +82,9 @@
           </label>
         </p>
         <!--
-            Maneja una asociación a
-            muchos.
-          -->
+      Maneja una asociación a
+      muchos.
+    -->
         <fieldset>
           <legend>Roles</legend>
           <ul id="listaRoles" class="checks">
@@ -99,13 +97,12 @@
         <mi-footer></mi-footer>
       </form>
 
-
     </div>
 
     <footer>
       Copyright 2021 Marroquin Aquino Luis Angel
     </footer>
-    <script type="module" src="js/CtrlUsua.js">
+    <script type="module" src="js/CtrlUsuarioNuevo.js">
     </script>
 </body>
 

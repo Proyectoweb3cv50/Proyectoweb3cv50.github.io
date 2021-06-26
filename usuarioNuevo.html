@@ -31,8 +31,8 @@
       <ul>
         <li><a href="index.html">Inicio</a></li>
         <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="pasatiempos.html" class="a_nav_inicio">Pasatiempo</a></li>
-        <li><a href="usuarios.html">Usuarios</a></li>
+        <li><a href="pasatiempos.html">Pasatiempo</a></li>
+        <li><a href="usuarios.html" class="a_nav_inicio">Usuarios</a></li>
         <li><a href="Comentarios.html">Contactanos</a></li>
       </ul>
     </nav>
@@ -47,29 +47,62 @@
       <form name="forma">
         <mi-nav></mi-nav>
 
-        <h1>Pasatiempo</h1>
+        <h1>Usuario Nuevo</h1>
         <div class="herramientas">
-          <a href="pasatiempos.html">
+          <a href="usuarios.html">
             Cancelar</a>
-          <button>Guardar</button>
-          <button name="eliminar" type="button">
-            Eliminar
+          <button type="submit">
+            Guardar
           </button>
         </div>
 
         <p>
           <label>
-            Nombre
-            <input name="nombre" type="text" required value="Cargando…">
+            Cue
+            <input name="cue" type="email" required>
           </label>
         </p>
+        <p>
+          <label>
+            Avatar
+            <input name="avatar" type="file" required accept=".png,.jpg,.jpeg,.gif">
+          </label>
+        </p>
+        <!--
+      Maneja una asociación a uno.
+    -->
+        <p>
+          <label>
+            Pasatiempo
+            <select name="pasatiempoId">
+              <option>
+                Cargando…
+              </option>
+            </select>
+          </label>
+        </p>
+        <!--
+      Maneja una asociación a
+      muchos.
+    -->
+        <fieldset>
+          <legend>Roles</legend>
+          <ul id="listaRoles" class="checks">
+            <li>
+              <mi-progreso>
+              </mi-progreso>
+            </li>
+          </ul>
+        </fieldset>
         <mi-footer></mi-footer>
       </form>
+
     </div>
+
     <footer>
       Copyright 2021 Marroquin Aquino Luis Angel
     </footer>
-    <script type="module" src="js/CtrlPasatiempo.js">
+    <script type="module" src="js/CtrlUsuarioNuevo.js">
     </script>
 </body>
 
